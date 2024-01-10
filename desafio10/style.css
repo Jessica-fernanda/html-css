@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'android';
+    src: url('pacote-projeto-d010/fontes/idroid.otf');
+    format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #81a87ea4;
+    font-family: sans-serif;
+}
+
+header{  
+    color: white;
+    background-image: linear-gradient(to bottom, #81a87ea4, #353d34);
+}
+
+#tituloprincipal, #legendatitulo{
+    text-align: center;
+}
+
+#legendatitulo{
+    max-width: 400px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+#tituloprincipal{
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+    padding: 30px;
+}
+
+nav{
+    background-color: #657564;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #81A87E;
+}
+
+main{
+    background-color: white;
+    max-width: 850px;
+    margin: auto;
+}
+
+main h1, h2{
+    font-family: android;
+    color: #657564e8;
+}
+
+main h1{
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+main p {
+    max-width: 700px;
+    text-align: justify;
+    margin: auto;
+    text-indent: 30px;
+    padding: 20px;
+}
+
+main h2{
+    background-color: #81a87ea4;
+    margin: 20px;
+   background-image: linear-gradient(to right, #81a87ea4, white );
+   padding-left: 15px;
+   padding-top: 3px;
+   padding-bottom: 3px;
+}
+
+img, iframe{
+   display: block;
+   margin: auto;
+}
+
+#video{
+    background-color: #657564;
+    padding: 20%;
+    padding-bottom: 36.2%;
+    position: relative;
+  
+}
+
+iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+#extra{
+    max-width: 800px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.39);
+}
+
+#extra h3{
+    background-color: #657564;
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+    color: white;
+}
+
+#contextra{
+    background-color: #64756867;
+    border-radius: 0 0 10px 10px;
+}
+
+#listas{
+    display: flex;
+    margin-left: 80px;
+    gap: 150px;
+}
+
+li{
+    list-style-image: url(pacote-projeto-d010/imagens/check.png);
+}
+
+a{
+    color: #4c8049;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#iconlink{
+    display: inline;
+}
+
+span{
+    color: #4c8049;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #657564;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.rodape{
+    color: #2D422B;
+}
