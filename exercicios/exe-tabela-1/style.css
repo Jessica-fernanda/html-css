@@ -1,0 +1,30 @@
+td, th{
+    border: 1px solid black;
+}
+
+table{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    /* border-collapse: collapse; */
+}
+
+.filmes{
+    width: auto;
+    border-collapse: collapse;
+}
+
+.filmes td{
+    padding: 10px;
+}
+
+.med{
+    text-align: left;
+    background-color: rgb(77, 77, 77);
+    color: white;
+}
+
+.color{
+    background-color: rgb(77, 77, 77);
+    color: white;
+}

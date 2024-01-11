@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabela</title>
+</head>
+<body>
+    <table>
+
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+            <td>4</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <!-- <td>x</td> -->
+            <td>7</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">8</td>
+            <!-- <td>x</td>
+            <td>x</td> -->
+            <td>9</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">10</td>
+            <td colspan="2">11</td>
+            <!-- <td>x</td> -->
+            <td>12</td>
+        </tr>
+
+        <tr>
+            <!-- <td>x</td> -->
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+
+    </table>
+<br><br>
+    <table>
+
+        <tr>
+            <td colspan="4">A</td>
+            <!-- <td>X</td>
+            <td>X</td>
+            <td>X</td> -->
+            <td rowspan="4">B</td>
+        </tr>
+
+        <tr>
+            <td rowspan="4">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+            <!-- <td>X</td> -->
+        </tr>
+
+        <tr>
+            <!-- <td>X</td> -->
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+            <!-- <td>X</td> -->
+        </tr>
+
+        <tr>
+            <!-- <td>X</td> -->
+            <td>J</td>
+            <td>L</td>
+            <td>M</td>
+            <!-- <td>X</td> -->
+        </tr>
+
+        <tr>
+            <!-- <td>X</td> -->
+            <td colspan="4">N</td>
+            <!-- <td>X</td>
+            <td>X</td>
+            <td>X</td> -->
+        </tr>
+
+    </table>
+
+<br><br>
+
+    <table class="filmes">
+
+        <tr>
+            <td>Grupo</td>
+            <td>Nomes</td>
+            <td colspan="3">Filmes</td>
+            <!-- <td>X</td>
+            <td>X</td> -->
+        </tr>
+
+        <tr>
+            <td rowspan="3">Mulheres</td>
+            <td>Ana Maria Santos</td>
+            <td>Alien</td>
+            <td>Rambo</td>
+            <td>Vingadores</td>
+        </tr>
+
+        <tr>
+            <!-- <td>x</td> -->
+            <td>Beatriz Souza</td>
+            <td>Hulk</td>
+            <td>Inception</td>
+            <td>Batman</td>
+        </tr>
+
+        <tr>
+            <!-- <td>x</td> -->
+            <td>Cláudia Melo</td>
+            <td>Oblivion</td>
+            <td>Matrix</td>
+            <td>Big Hero</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">Homens</td>
+            <td>Bruno Mendonça</td>
+            <td>Intocáveis</td>
+            <td>Amnésia</td>
+            <td>Gladiador</td>
+        </tr>
+
+        <tr>
+            <!-- <td></td> -->
+            <td>Daniel Lorenço</td>
+            <td>Wall-E</td>
+            <td>Oldboy</td>
+            <td>Dangal</td>
+        </tr>
+
+        <tr>
+            <!-- <td></td> -->
+            <td>Fabiano Mota</td>
+            <td>Star Wars 5</td>
+            <td>Táxi Driver</td>
+            <td>Toy Story</td>
+        </tr>
+
+    </table>
+
+<br><br>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th rowspan="2" class="color" scope="col">Área</th>
+                <th rowspan="2" class="color" scope="col">Disciplina</th>
+                <th colspan="2" class="color" scope="colgroup">Notas</th>
+                <th rowspan="2" class="color" scope="col">Média</th>
+            </tr>
+            <tr>
+                <th class="color" scope="col">Nota 1</th>
+                <th class="color" scope="col">Nota 2</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <td>Matemática</td>
+                <td>0,0</td>
+                <td>0,0</td>
+                <td>0,0</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>0,0</td>
+                <td>0,0</td>
+                <td>0,0</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>0,0</td>
+                <td>0,0</td>
+                <td>0,0</td> 
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0,0</td>
+                <td>0,0</td>
+                <td>0,0</td> 
+            </tr>
+
+            <tr>
+                <th colspan="4" class="med" scope="row">Média Exatas</th>
+                <td class="color">0,0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+                <td>História</td>
+                <td>0,0</td>
+                <td>0,0</td>
+                <td>0,0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0,0</td>
+                <td>0,0</td>
+                <td>0,0</td> 
+            </tr>
+            <tr>
+                <th colspan="4" class="med" scope="row">Média Humanas</th>
+                <td class="color">0,0</td>
+            </tr>
+            
+        </tbody>
+
+    </table>
+
+</body>
+</html>
